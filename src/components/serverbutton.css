@@ -1,0 +1,82 @@
+.watch-server-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 12px 0;
+
+  scrollbar-width: none;
+}
+
+.watch-server-buttons::-webkit-scrollbar {
+  display: none;
+}
+
+.watch-server-button {
+  flex: 0 0 auto;
+
+  min-width: 90px;
+  height: 42px;
+
+  padding: 0 18px;
+
+  border: 1px solid #333;
+  border-radius: 8px;
+
+  background: #171717;
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.watch-server-button:hover {
+  border-color: #00ff88;
+}
+
+.watch-server-button.active {
+  background: #00c853;
+  border-color: #00c853;
+  color: #000;
+}
+.watch-server-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 12px 0;
+  scrollbar-width: none;
+}
+
+.watch-server-buttons::-webkit-scrollbar {
+  display: none;
+}
+
+.watch-server-button {
+  flex: 0 0 auto;
+  min-width: 90px;
+  height: 42px;
+  padding: 0 18px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background: #171717;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+  white-space: nowrap;
+}
+
+.watch-server-button:hover {
+  border-color: #00ff88;
+}
+
+.watch-server-button.active {
+  background: #00c853;
+  border-color: #00c853;
+  color: #000;
+}

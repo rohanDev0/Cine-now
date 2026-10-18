@@ -1,0 +1,61 @@
+.searchBox {
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  
+  border-radius: 50px;
+  position: relative;
+  width: 700px;
+
+  background-color: rgba(15, 15, 15, 0.6);   /* 60% opaque dark gray */
+  backdrop-filter: blur(12px);                /* Creates the translucent frosted effect */
+  -webkit-backdrop-filter: blur(12px);        /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle edge definition */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);   /* Darker shadow for definition */
+  
+  
+  
+}
+@media (max-width: 800px) {
+  .searchBox {
+    width: 300px;
+  }
+}
+
+.searchButton {
+  color: white;
+  position: absolute;
+  right: 8px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+  border: 0;
+  display: inline-block;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+  transform: translateY(-3px);
+}
+
+.searchButton:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  padding: 24px 46px 24px 26px;
+  width: 100%;
+}

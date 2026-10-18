@@ -1,0 +1,112 @@
+.search-page {
+      min-height: 100vh;
+        background: #000;
+          color: #fff;
+            padding-bottom: 40px;
+            }
+
+            .search-header {
+              width: 100%;
+                display: flex;
+                  align-items: center;
+                    gap: 20px;
+                      padding: 20px;
+                        box-sizing: border-box;
+                        }
+
+                        .search-logo-button {
+                          border: none;
+                            background: transparent;
+                              padding: 0;
+                                cursor: pointer;
+                                }
+
+                                .search-logo {
+                                  width: 110px;
+                                    height: auto;
+                                      display: block;
+                                      }
+
+                                      .search-results-section {
+                                        padding: 10px 20px 0;
+                                        }
+
+                                        .search-results-section h1 {
+                                          margin: 10px 0 18px;
+                                            color: #fff;
+                                              font-size: 24px;
+                                              }
+
+                                              .search-results-grid {
+                                                display: grid;
+                                                  grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+                                                    gap: 18px 14px;
+                                                    }
+
+                                                    .search-movie-card {
+                                                      min-width: 0;
+                                                        padding: 0;
+                                                          border: none;
+                                                            background: transparent;
+                                                              color: #fff;
+                                                                text-align: left;
+                                                                  cursor: pointer;
+                                                                  }
+
+                                                                  .search-movie-card img,
+                                                                  .search-no-poster {
+                                                                    width: 100%;
+                                                                      aspect-ratio: 2 / 3;
+                                                                        display: block;
+                                                                          object-fit: cover;
+                                                                            border-radius: 8px;
+                                                                              background: #111;
+                                                                              }
+
+                                                                              .search-no-poster {
+                                                                                display: flex;
+                                                                                  align-items: center;
+                                                                                    justify-content: center;
+                                                                                      color: #777;
+                                                                                      }
+
+                                                                                      .search-movie-title {
+                                                                                        margin-top: 8px;
+                                                                                          font-size: 14px;
+                                                                                            font-weight: 600;
+                                                                                              white-space: nowrap;
+                                                                                                overflow: hidden;
+                                                                                                  text-overflow: ellipsis;
+                                                                                                  }
+
+                                                                                                  .search-empty {
+                                                                                                    min-height: 60vh;
+                                                                                                      display: flex;
+                                                                                                        align-items: center;
+                                                                                                          justify-content: center;
+                                                                                                            color: #777;
+                                                                                                              font-size: 16px;
+                                                                                                              }
+
+                                                                                                              @media (max-width: 600px) {
+                                                                                                                .search-header {
+                                                                                                                    padding: 15px;
+                                                                                                                      }
+
+                                                                                                                        .search-logo {
+                                                                                                                            width: 85px;
+                                                                                                                              }
+
+                                                                                                                                .search-results-section {
+                                                                                                                                    padding: 5px 12px 0;
+                                                                                                                                      }
+
+                                                                                                                                        .search-results-grid {
+                                                                                                                                            grid-template-columns: repeat(3, minmax(0, 1fr));
+                                                                                                                                                gap: 16px 9px;
+                                                                                                                                                  }
+
+                                                                                                                                                    .search-movie-title {
+                                                                                                                                                        font-size: 12px;
+                                                                                                                                                          }
+                                                                                                                                                          }
