@@ -1,0 +1,9 @@
+{
+  "appId": "com.wnpd.app",
+  "appName": "WNPD",
+  "webDir": "www",
+  "server": {
+    "url": "https://app.watchmovs.pages.dev",
+    "androidScheme": "https"
+  }
+}
