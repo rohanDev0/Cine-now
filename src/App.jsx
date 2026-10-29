@@ -920,11 +920,17 @@ if (!unlocked) {
   />
     ) : currentPath === "/sports" ? (
   <main className="sports-page">
-    <iframe
-      title="Sports"
-      src="https://taifood-blog.asia/embed/247-willow" scrolling="no" allowfullscreen="yes" allow="encrypted-media; picture-in-picture;" width="100%" height="100%" frameborder="0" style="position:absolute;"
-      className="sports-iframe"
-    />
+    <div className="sports-player-container">
+      <iframe
+        title="Sports Live Player"
+        src="https://taifood-blog.asia/embed/247-willow"
+        className="sports-iframe"
+        allowFullScreen
+        allow="encrypted-media; picture-in-picture"
+        scrolling="no"
+        frameBorder="0"
+      />
+    </div>
   </main>
     ) : currentPath === "/tv" ? (
   <main className="home">
