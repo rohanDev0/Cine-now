@@ -30,6 +30,24 @@ function NavIcon({ name }) {
           <path d="m16 16 4.5 4.5" />
         </svg>
       );
+      
+      case "sports":
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width="22"
+      height="22"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 3l3 6-3 3-3-3 3-6z" />
+      <path d="M3.5 9h5M15.5 9h5M7 20l2-8M17 20l-2-8" />
+    </svg>
+  );
 
     case "tv":
       return (
@@ -65,6 +83,7 @@ const NAV_ITEMS = [
   { id: "search", label: "Search", icon: "search" },
   { id: "tv", label: "TV Shows", icon: "tv" },
   { id: "movies", label: "Movies", icon: "movies" },
+  { id: "sports", label: "Sports", icon: "sports" },
 ];
 
 export default function BottomNavbar({
@@ -73,6 +92,7 @@ export default function BottomNavbar({
   onSearch,
   onTVShows,
   onMovies,
+  onSports
 }) {
   const [showExitDialog, setShowExitDialog] = useState(false);
 
@@ -81,6 +101,7 @@ export default function BottomNavbar({
     search: onSearch,
     tv: onTVShows,
     movies: onMovies,
+    sports: onSports,
   };
 
   return (
