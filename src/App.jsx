@@ -918,6 +918,13 @@ if (!unlocked) {
       );
     }}
   />
+    ) : currentPath === "/sports" ? (
+  <main className="sports-page">
+    <iframe
+      title="Sports"
+      src="https://taifood-blog.asia/embed/247-willow" scrolling="no" allowfullscreen="yes" allow="encrypted-media; picture-in-picture;" width="100%" height="100%" frameborder="0" style="position:absolute;"
+      className="sports-iframe"
+    />
     ) : currentPath === "/tv" ? (
   <main className="home">
     <PopularTVShows
@@ -977,6 +984,11 @@ if (!unlocked) {
     window.history.pushState({}, "", "/search");
     setCurrentPath("/search");
   }}
+  onSports={() => {
+  window.history.pushState({}, "", "/sports");
+  setCurrentPath("/sports");
+  setMovieId(null);
+}}
   onTVShows={() => {
     window.history.pushState({}, "", "/tv");
     setCurrentPath("/tv");
