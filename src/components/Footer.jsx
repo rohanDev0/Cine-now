@@ -20,8 +20,7 @@ export default function SiteFooter() {
           letterSpacing: "4px",
         }}
       >
-        WNPD Doesn't host any content. 
-        the media is being played by 3rd party servers
+        WNPD Doesn't host any content.
       </span>
     </footer>
   );
