@@ -17,7 +17,7 @@ import SearchPage from "./components/SearchPage.jsx";
 import Background from "./components/bg.jsx";
 import PopularTVShows from "./components/Home sections/PopularTVShows.jsx";
 import Studios from "./components/Home sections/Studios.jsx";
-import CinenowLogo from "./components/CinenowLogo.jsx";
+//import CinenowLogo from "./components/CinenowLogo.jsx";
 import BottomNavbar from "./components/BottomNavbar.jsx";
 
 const TMDB_URL =
