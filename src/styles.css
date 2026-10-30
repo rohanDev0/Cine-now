@@ -100,7 +100,7 @@ margin: 0;
 
  @media (max-width: 600px) {
  .site-logo {
- width: 400px;
+ width: auto;
    height: auto;
   }
  }
