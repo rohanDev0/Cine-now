@@ -20,7 +20,7 @@ export default function SiteFooter() {
           letterSpacing: "4px",
         }}
       >
-        WNPD Doesn't host any content.
+        Cinenow Doesn't host any content.
       </span>
     </footer>
   );

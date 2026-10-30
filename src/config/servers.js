@@ -57,8 +57,8 @@ export function getEmbedUrl({
        `https://player.vidlove.cc/embed/tv/${movieId}/${selectedSeason}/${selectedEpisode}?player=mc-capsule&primarycolor=3fa35a&secondarycolor=0f1411&iconcolor=f2f7f3&icon=streaming&pip=false&fontsize=21&opacity=0.1`
       : `https://player.vidlove.cc/embed/movie/${movieId}?player=mc-capsule&primarycolor=3fa35a&secondarycolor=0f1411&iconcolor=f2f7f3&icon=streaming&pip=false&fontsize=21&opacity=0.1`,
     vidstuck: TV? 
-      `https://vidstuck.xyz/embed/tv/${movieId}/${selectedSeason}/${selectedEpisode}?branding=WNPD+&loading=2&back=true`
-      : `https://vidstuck.xyz/embed/movie/${movieId}?branding=WNPD+&loading=2&back=true`,
+      `https://vidstuck.xyz/embed/tv/${movieId}/${selectedSeason}/${selectedEpisode}?branding=Cinenow+&loading=2&back=true`
+      : `https://vidstuck.xyz/embed/movie/${movieId}?branding=Cinenow+&loading=2&back=true`,
     nxsha: TV? 
       `https://nxsha.space/embed/tv/${movieId}/${selectedSeason}/${selectedEpisode}?disable_dl_button=true&disable_app_ad=true&color=green`
       : `https://nxsha.space/embed/movie/${movieId}?disable_dl_button=true&disable_app_ad=true&color=green`,

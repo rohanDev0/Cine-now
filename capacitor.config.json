@@ -1,6 +1,6 @@
 {
-  "appId": "com.wnpd.app",
-  "appName": "WNPD",
+  "appId": "com.Cinenow.app",
+  "appName": "Cinenow",
   "webDir": "www",
   "server": {
     "url": "https://app.watchmovs.pages.dev",

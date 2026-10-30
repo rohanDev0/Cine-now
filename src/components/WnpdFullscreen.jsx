@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 
-function WnpdFullscreen({ children }) {
+function CinenowFullscreen({ children }) {
   const playerRef = useRef(null);
   const [fullscreen, setFullscreen] = useState(false);
 
@@ -21,13 +21,13 @@ function WnpdFullscreen({ children }) {
   return (
     <div
       ref={playerRef}
-      className={`wnpd-fullscreen ${fullscreen ? "is-fullscreen" : ""}`}
+      className={`Cinenow-fullscreen ${fullscreen ? "is-fullscreen" : ""}`}
     >
       {children}
 
       <button
         type="button"
-        className="wnpd-fullscreen-button"
+        className="Cinenow-fullscreen-button"
         onClick={toggleFullscreen}
       >
         {fullscreen ? "⛶" : "⛶"}
@@ -36,4 +36,4 @@ function WnpdFullscreen({ children }) {
   );
 }
 
-export default WnpdFullscreen;
+export default CinenowFullscreen;

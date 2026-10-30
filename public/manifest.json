@@ -1,6 +1,6 @@
 {
-      "name": "WNPD",
-        "short_name": "WNPD",
+      "name": "Cinenow",
+        "short_name": "Cinenow",
           "description": "Movies Unlimited",
             "start_url": "/",
               "scope": "/",

@@ -146,7 +146,7 @@ export default function BottomNavbar({
             aria-labelledby="bottom-navbar-exit-title"
             onClick={(event) => event.stopPropagation()}
           >
-            <h2 id="bottom-navbar-exit-title">Leave WNPD?</h2>
+            <h2 id="bottom-navbar-exit-title">Leave Cinenow?</h2>
 
             <p>
               Browsers don't allow websites to reliably close

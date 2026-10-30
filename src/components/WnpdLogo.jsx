@@ -1,6 +1,6 @@
-export default function WnpdLogo() {
+export default function CinenowLogo() {
   return (
-    <div className="wnpd-logo" aria-label="WNPD">
+    <div className="Cinenow-logo" aria-label="Cinenow">
       <svg
         viewBox="0 0 150 90"
         xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ export default function WnpdLogo() {
           opacity="0.08"
         />
 
-        {/* WNPD lettering */}
+        {/* Cinenow lettering */}
         <text
           x="73"
           y="53"
@@ -53,7 +53,7 @@ export default function WnpdLogo() {
           letterSpacing="1"
           fill="currentColor"
         >
-          WNPD
+          Cinenow
         </text>
 
         {/* Play button */}

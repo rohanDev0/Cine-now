@@ -17,7 +17,7 @@ import SearchPage from "./components/SearchPage.jsx";
 import Background from "./components/bg.jsx";
 import PopularTVShows from "./components/Home sections/PopularTVShows.jsx";
 import Studios from "./components/Home sections/Studios.jsx";
-import WnpdLogo from "./components/WnpdLogo.jsx";
+import CinenowLogo from "./components/CinenowLogo.jsx";
 import BottomNavbar from "./components/BottomNavbar.jsx";
 
 const TMDB_URL =
@@ -137,7 +137,7 @@ function Home({
     <>
   <main className="home">
     <header className="header">
-    <WnpdLogo />
+    <CinenowLogo />
 
       <div className="site-owner">ЯR</div>
       
@@ -402,8 +402,8 @@ function Watch({ movieId, movie, mediaType, onBack }) {
     <main className="watch">
       <header className="watch-navbar">
         <div className="watch-logo">
-          <img src={lago} alt="WNPD" />
-          <span>WNPD</span>
+          <img src={lago} alt="Cinenow" />
+          <span>Cinenow</span>
         </div>
 
         <div className="watch-nav-actions">
@@ -553,7 +553,7 @@ export default function App() {
   const [maintenanceMode, setMaintenanceMode] = useState(false);
 
   const [unlocked, setUnlocked] = useState(() => {
-    const unlockTime = localStorage.getItem("wnpd_unlock_time");
+    const unlockTime = localStorage.getItem("Cinenow_unlock_time");
 
     if (!unlockTime) return false;
 
@@ -564,7 +564,7 @@ export default function App() {
       return true;
     }
 
-    localStorage.removeItem("wnpd_unlock_time");
+    localStorage.removeItem("Cinenow_unlock_time");
     return false;
   });
 

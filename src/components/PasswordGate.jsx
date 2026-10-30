@@ -10,7 +10,7 @@ const handleSubmit = async (e) => {
   e.preventDefault();
 
     try {
-    const response = await fetch("https://wnpd-auth.rohantemp9.workers.dev/", {
+    const response = await fetch("https://Cinenow-auth.rohantemp9.workers.dev/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -26,7 +26,7 @@ const handleSubmit = async (e) => {
       setWrong(false);
 
       localStorage.setItem(
-        "wnpd_unlock_time",
+        "Cinenow_unlock_time",
         Date.now().toString()
       );
 
@@ -43,7 +43,7 @@ const handleSubmit = async (e) => {
     if (password === "") {
       setWrong(false);
       localStorage.setItem(
-    "wnpd_unlock_time",
+    "Cinenow_unlock_time",
     Date.now().toString()
   );
       onUnlock();
@@ -57,11 +57,11 @@ const handleSubmit = async (e) => {
 
       <div className="gate-content">
 
-        {/* WNPD LOGO */}
+        {/* Cinenow LOGO */}
         <img
           className="gate-logo"
           src={lago}
-          alt="WNPD"
+          alt="Cinenow"
         />
 
         {/* TITLE */}
