@@ -923,7 +923,7 @@ if (!unlocked) {
     <div className="sports-player-container">
       <iframe
         title="Sports Live Player"
-        src="https://taifood-blog.asia/embed/247-willow"
+        src="https://yonotv.pages.dev/LINK?id=IND5"
         className="sports-iframe"
         allowFullScreen
         allow="encrypted-media; picture-in-picture"
