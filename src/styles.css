@@ -1,4 +1,29 @@
+/* Fix mobile-only horizontal gap */
+@media (max-width: 767px) {
+  html,
+  body,
+  #root {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
 
+  .home,
+  .home-hero {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  img,
+  video,
+  iframe {
+    max-width: 100%;
+  }
+}
 html,
 body,
 #root {
